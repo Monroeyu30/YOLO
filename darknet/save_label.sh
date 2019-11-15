@@ -1,8 +1,8 @@
 #! /bin/bash
 sum=0
-image_save_path="/home/hbc/data/yolo/results/images/"
-txt_save_path="/home/hbc/data/yolo/results/labels/"
-for file in /home/hbc/data/smartcity/images/dataset1/Cam1/*.jpg
+image_save_path="/home/monroe/person/images/"
+txt_save_path="/home/monroe/person/labels/"
+for file in /home/monroe/person/data/*.jpg
 do
     if test -f $file
     then
